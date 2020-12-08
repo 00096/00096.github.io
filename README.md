@@ -1,3 +1,3 @@
 # 00096.github.io
-맘대로 수정하지 말아주세요 라** 도** 이**
+맘대로 수정하지 말아주세요 (webstudy1,rawonik, bewiser276 한정)
   
