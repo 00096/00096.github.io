@@ -39,13 +39,16 @@
                     }
 		    //출처:https://webfoxrain.tistory.com/2
 		    //자바스크립트 연구 중.가끔씩 테스트 해보는 사이트 주소:https://00096.github.io/test/j.html
-		    
-		    alert("노래 목록이 업데이트 되었습니다.")
+		    var ch = getCookie("alertcookie");
+		    if(ch!="song"){
+			    setCookie("alertcookie", "song", "1");
+			    alert("노래가 추가되었습니다");//1번만 출력되도록 변경
+		    }
 		</script>
 		<br>
 		<br>
 		<a href="https://webstudy1.github.io/jtwomain/jtwo.html"><지투 사이트로 돌아가기</a>
-		<br>
+		<br>ㅎ
 		<br>
 		<h3 style="text-align:center">민천지를 믿으십시오, 행복과 평안이 가득한 곳입니다.<em> 믿습니다! </em></h3>
 		<br>
