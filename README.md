@@ -5,4 +5,4 @@
 
 민천지 = 진리
 
-<a href = "http://jeet.kr/intro/performance/read.jsp?reqPageNo=1&scategory_fk=61&no=145">지트 실적</a>
+<a href = "http://jeet.kr/intro/performance/read.jsp?reqPageNo=1&scategory_fk=61&no=145">지트 실적(jmc 29회 4grade 은상은?)</a>
