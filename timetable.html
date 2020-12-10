@@ -1,0 +1,26 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <title>
+      지트 영재센터 수업시간표
+    </title>
+  </head>
+  <body>
+  <script>
+  function getTodayLabel() {
+    
+    var week = new Array('일요일', '월요일', '화요일', '수요일', '목요일', '금요일', '토요일');
+    
+    var today = new Date().getDay();
+    var todayLabel = week[today];
+    
+    return todayLabel;
+}
+
+
+//출처: https://elena90.tistory.com/en
+try/Java-Script-%EC%98%A4%EB%8A%98%EB%82%A0%EC%A7%9C-%ED%8A%B9%EC%A0%95-%EB%82%A0%EC%A7%9C%EC%9D
+%98-%EC%9A%94%EC%9D%BC-%EA%B5%AC%ED%95%98%EA%B8%B0-%EC%98%88%EC%A0%9C-%EB%85%84%EB%8F%84-%EC%9B%94-%EC%9D%BC-%EC%9A%94%EC%9D%BC
+var today=getTodayLabel()
+document.write("오늘은" today "입니다.")
+    
